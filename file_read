@@ -1,0 +1,4 @@
+file1=open('verse','r',encoding='utf-8')
+file_data=file1.read()
+print(file_data)
+file1.close()
